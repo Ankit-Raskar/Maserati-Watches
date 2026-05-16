@@ -1,50 +1,88 @@
-Maserati Watches — Italian Precision Since 1914
-A cinematic luxury watch showroom built with React and TanStack Router, featuring immersive 3D animations, a curated collections grid, wishlist management, and individual watch detail pages — all styled to match Maserati's heritage aesthetic.
+# 🏎️ Maserati Watches — Italian Precision Since 1914
 
-Preview
+> A cinematic luxury watch showroom built with React and TanStack Router, featuring immersive 3D animations, a curated collections grid, wishlist management, and individual watch detail pages — all styled to match Maserati's heritage aesthetic.
 
-A dark, gold-accented single-page experience with parallax hero, particle field, 3D card tilt effects, and smooth scroll animations.
+---
 
+## ✨ Preview
 
-Tech Stack
-LayerTechnologyFrameworkReact 18 + TypeScriptRoutingTanStack Router v1 (file-based)AnimationsFramer Motion + GSAPStylingTailwind CSS v4 + custom CSS design systemBuild ToolVite 7StateReact hooks (wishlist via localStorage)DeploymentVercel (SPA mode)
+A dark, gold-accented single-page experience with a parallax hero, particle field, 3D card tilt effects, and smooth scroll animations.
 
-Features
+---
 
-Cinematic Hero — fullscreen video background with parallax mouse tracking and GSAP entrance animations
-Particle Field — ambient canvas particle system layered behind all content
-Luxury Cursor — custom magnetic cursor with hover states
-3D Card Tilt — perspective tilt on collection cards driven by mouse position
-Collections Grid — Limited Edition, Exclusive, and Golden collections with reveal-on-scroll
-Signature Showcase — floating animated feature piece with full spec breakdown
-Watch Detail Pages — individual pages per timepiece with specs, imagery, and wishlist toggle
-Wishlist — persistent wishlist with add/remove, animated grid, and clear-all support
-Heritage Timeline — animated brand history section
-Testimonials — collector quotes with staggered entrance
-Newsletter + Contact — subscribe form and contact section
-Fully Responsive — mobile nav with hamburger menu, fluid grid breakpoints
+## 🛠️ Tech Stack
 
+| Layer | Technology |
+|---|---|
+| Framework | React 18 + TypeScript |
+| Routing | TanStack Router v1 (file-based) |
+| Animations | Framer Motion + GSAP |
+| Styling | Tailwind CSS v4 + custom CSS design system |
+| Build Tool | Vite 7 |
+| State | React hooks (wishlist via localStorage) |
+| Deployment | Vercel (SPA mode) |
 
-Getting Started
-Prerequisites
+---
 
-Node.js 18+
-npm
+## 🚀 Features
 
-Installation
-bashgit clone https://github.com/Ankit-Raskar/maserati-watches.git
+- **Cinematic Hero** — fullscreen video background with parallax mouse tracking and GSAP entrance animations
+- **Particle Field** — ambient canvas particle system layered behind all content
+- **Luxury Cursor** — custom magnetic cursor with hover states
+- **3D Card Tilt** — perspective tilt on collection cards driven by mouse position
+- **Collections Grid** — Limited Edition, Exclusive, and Golden collections with reveal-on-scroll
+- **Signature Showcase** — floating animated feature piece with full spec breakdown
+- **Watch Detail Pages** — individual pages per timepiece with specs, imagery, and wishlist toggle
+- **Wishlist** — persistent wishlist with add/remove, animated grid, and clear-all support
+- **Heritage Timeline** — animated brand history section
+- **Testimonials** — collector quotes with staggered entrance
+- **Newsletter + Contact** — subscribe form and contact section
+- **Fully Responsive** — mobile nav with hamburger menu, fluid grid breakpoints at all screen sizes
+
+---
+
+## 📦 Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- npm
+
+### Installation
+
+```bash
+git clone https://github.com/Ankit-Raskar/maserati-watches.git
 cd maserati-watches
 npm install
-Development
-bashnpm run dev
-Open http://localhost:5173 in your browser.
-Production Build
-bashnpm run build
-Output goes to the dist/ folder.
-Preview Production Build
-bashnpm run preview
+```
 
-Project Structure
+### Development
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+### Production Build
+
+```bash
+npm run build
+```
+
+Output goes to the `dist/` folder.
+
+### Preview Production Build
+
+```bash
+npm run preview
+```
+
+---
+
+## 📁 Project Structure
+
+```
 src/
 ├── components/
 │   └── maserati/
@@ -62,38 +100,71 @@ src/
 ├── router.tsx                    # Router factory
 ├── main.tsx                      # App entry point
 └── styles.css                    # Global design system + component styles
+```
 
-Design System
+---
+
+## 🎨 Design System
+
 The project uses CSS custom properties for all brand tokens:
-css--gold          /* Primary gold accent  */
---gold-light    /* Lighter gold for headings */
---gold-shine    /* Highlight shimmer */
---mas-bg        /* Primary dark background */
---mas-bg-panel  /* Card/panel background */
---mas-line      /* Subtle border color */
---mas-muted     /* Secondary text */
-Typography uses Cormorant Garamond (serif headings) and Josefin Sans (UI labels/navigation).
 
-Deployment
+```css
+--gold            /* Primary gold accent   */
+--gold-light      /* Lighter gold for headings */
+--gold-shine      /* Highlight shimmer     */
+--mas-bg          /* Primary dark background */
+--mas-bg-panel    /* Card / panel background */
+--mas-line        /* Subtle border colour  */
+--mas-muted       /* Secondary text        */
+```
+
+Typography uses **Cormorant Garamond** (serif headings) and **Josefin Sans** (UI labels / navigation).
+
+---
+
+## 🌐 Deployment
+
 The project is configured for Vercel with SPA routing:
-json{
+
+```json
+{
   "outputDirectory": "dist",
   "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
 }
-Push to GitHub and import into Vercel — it deploys automatically.
+```
 
-About the Developer
-<img src="https://github.com/Ankit-Raskar.png" alt="Ankit Raskar" width="100" style="border-radius: 50%;" />
-Ankit Raskar
+Push to GitHub and import into Vercel — it deploys automatically with zero configuration.
+
+---
+
+## 👨‍💻 About the Developer
+
+<img src="https://github.com/Ankit-Raskar.png" width="100" alt="Ankit Raskar" />
+
+### Ankit Raskar
+
 A passionate frontend developer who loves building immersive, detail-driven web experiences. This project was crafted as a deep dive into cinematic UI design — combining luxury aesthetics with modern React architecture, animation libraries, and performance-conscious engineering.
-When not pushing pixels, Ankit is exploring new design systems, experimenting with creative front-end interactions, and turning ideas into polished digital products.
-Let's connect:
-🐙 GitHubgithub.com/Ankit-Raskar💼 LinkedInlinkedin.com/in/ankit-raskar📧 Emailankitraskar01@gmail.com
 
-License
+When not pushing pixels, Ankit is exploring new design systems, experimenting with creative frontend interactions, and turning ideas into polished digital products.
+
+#### 🔗 Connect with me
+
+[![GitHub](https://img.shields.io/badge/GitHub-Ankit--Raskar-181717?style=for-the-badge&logo=github)](https://github.com/Ankit-Raskar)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ankit%20Raskar-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/ankit-raskar/)
+[![Email](https://img.shields.io/badge/Email-ankitraskar01%40gmail.com-EA4335?style=for-the-badge&logo=gmail)](mailto:ankitraskar01@gmail.com)
+
+---
+
+## 📄 License
+
 MIT — free to use for personal and commercial projects.
 
-Credits
+---
+
+## 🙏 Credits
+
 Built with passion for Italian design heritage. Maserati branding, imagery, and trademarks belong to their respective owners. This is a fan-made showcase project and is not affiliated with or endorsed by Maserati S.p.A.
 
-Crafted with ♥ by Ankit Raskar
+---
+
+<p align="center">Crafted with ♥ by <a href="https://github.com/Ankit-Raskar">Ankit Raskar</a></p>
