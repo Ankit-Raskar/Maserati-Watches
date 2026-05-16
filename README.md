@@ -155,15 +155,6 @@ When not pushing pixels, Ankit is exploring new design systems, experimenting wi
 
 ---
 
-## 📄 License
-
-MIT — free to use for personal and commercial projects.
-
----
-
-## 🙏 Credits
-
-Built with passion for Italian design heritage. Maserati branding, imagery, and trademarks belong to their respective owners. This is a fan-made showcase project and is not affiliated with or endorsed by Maserati S.p.A.
 
 ---
 
